@@ -1,4 +1,4 @@
-def call(protocol, someArg = "A-AARGHHH!!!") {
+def call(someArg = "A-AARGHHH!!!") {
     response = sh(
         returnStdout: true,
         script: """
